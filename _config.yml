@@ -1,3 +1,12 @@
 title: "AnonymousJok3r — Offensive Security"
 description: "Pentest writeups & tools"
-theme: "hacker"
+
+# ✅ Use GitHub Pages dark theme
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# Optional top navigation
+header_pages:
+  - about.md
+  - contact.md

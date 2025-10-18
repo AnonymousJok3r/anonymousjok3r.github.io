@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
 # Hi, I’m AnonymousJok3r

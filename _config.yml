@@ -1,0 +1,7 @@
+title: "AnonymousJok3r — Offensive Security"
+description: "Pentest writeups & tools"
+
+# ⚠️ Use ONLY ONE of these. We’ll use remote_theme (recommended).
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme

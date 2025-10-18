@@ -2,4 +2,4 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-**It's a secret
+It's a secret

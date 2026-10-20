@@ -131,31 +131,27 @@ Command:- pypykatz lsa minidump lsass.dmp
 
 <figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
+Use psexec.py to gain shell access&#x20;
 
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
+Found interesting files in documents folder&#x20;
 
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
+Use mimikatz to load the kirbi file&#x20;
 
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
+```
+Command:lsadump::dcsync /user:administrator
+```
 
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
+### Domain administrator hash
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 
 

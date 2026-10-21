@@ -184,7 +184,7 @@ Directory fuzzing revealed that there was /roundcube webmail instance was runnin
 
 ### Roundcube webmail&#x20;
 
-Authnticated successfully with justin credentials
+Authenticated successfully with justin credentials
 
 <figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 

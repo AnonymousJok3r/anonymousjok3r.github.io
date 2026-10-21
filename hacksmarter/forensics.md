@@ -63,7 +63,7 @@ This Repo works well for accdb files, clone the repo&#x20;
 
 <figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-Reterived user kanon and gap credentials with accdb.py
+Retrieved user kanon and gap credentials with accdb.py
 
 
 

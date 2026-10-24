@@ -9,3 +9,4 @@
 * [Haystack](hacksmarter/haystack.md)
 * [Lumon](hacksmarter/lumon.md)
 * [Kitsune](hacksmarter/kitsune.md)
+* [Orion Corp](hacksmarter/orion-corp.md)

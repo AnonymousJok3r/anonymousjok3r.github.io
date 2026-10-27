@@ -12,3 +12,4 @@
 * [Orion Corp](hacksmarter/orion-corp.md)
 * [NOC](hacksmarter/noc.md)
 * [404 Bank](hacksmarter/404-bank.md)
+* [Induction](hacksmarter/induction.md)

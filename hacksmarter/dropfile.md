@@ -106,7 +106,7 @@ for keylen in range(1, 65):
 
 <figure><img src="../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 
-On line 28 of the script change the number to 4000 or 5000 to read the contents of everything in a file
+Adjusted the script's byte limit to 4000 or 5000 on line 28 to ensure the entire target file was read without being cut off.
 
 Found a user called ravi in /etc/passwd&#x20;
 

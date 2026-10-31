@@ -15,3 +15,4 @@
 * [Induction](hacksmarter/induction.md)
 * [Aftermath](hacksmarter/aftermath.md)
 * [Dropfile](hacksmarter/dropfile.md)
+* [CTOS](hacksmarter/ctos.md)

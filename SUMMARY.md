@@ -14,3 +14,4 @@
 * [404 Bank](hacksmarter/404-bank.md)
 * [Induction](hacksmarter/induction.md)
 * [Aftermath](hacksmarter/aftermath.md)
+* [Dropfile](hacksmarter/dropfile.md)

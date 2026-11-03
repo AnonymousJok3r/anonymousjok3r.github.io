@@ -16,6 +16,7 @@
 * [Aftermath](hacksmarter/aftermath.md)
 * [Dropfile](hacksmarter/dropfile.md)
 * [CTOS](hacksmarter/ctos.md)
+* [Samurai](hacksmarter/samurai.md)
 
 ## About
 

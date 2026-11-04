@@ -17,6 +17,7 @@
 * [Dropfile](hacksmarter/dropfile.md)
 * [CTOS](hacksmarter/ctos.md)
 * [Samurai](hacksmarter/samurai.md)
+* [Dark](hacksmarter/dark.md)
 
 ## About
 

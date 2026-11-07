@@ -18,6 +18,7 @@
 * [CTOS](hacksmarter/ctos.md)
 * [Samurai](hacksmarter/samurai.md)
 * [Dark](hacksmarter/dark.md)
+* [New Hire](hacksmarter/new-hire.md)
 
 ## About
 

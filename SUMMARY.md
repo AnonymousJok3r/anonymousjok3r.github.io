@@ -20,6 +20,7 @@
 * [Dark](hacksmarter/dark.md)
 * [New Hire](hacksmarter/new-hire.md)
 * [Casino](hacksmarter/casino.md)
+* [Shadowgate2](hacksmarter/shadowgate2.md)
 
 ## About
 

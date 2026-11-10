@@ -70,7 +70,7 @@ Looking back at the web application, able to enumerate users list with regular a
 
 <figure><img src="../.gitbook/assets/image (474).png" alt=""><figcaption></figcaption></figure>
 
-### Wordpress Users Enumeration - [https://hackertarget.com/attacking-wordpress/](https://hackertarget.com/attacking-wordpress/)
+#### Wordpress Users Enumeration -[https://hackertarget.com/attacking-wordpress/](https://hackertarget.com/attacking-wordpress/)
 
 When accessing, wp-admin it is redirecting me to a domain name called lklinux1.local, so added the domain the to hosts file and was able to access the admin page&#x20;
 

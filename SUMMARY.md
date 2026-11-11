@@ -22,6 +22,7 @@
 * [Casino](hacksmarter/casino.md)
 * [Shadowgate2](hacksmarter/shadowgate2.md)
 * [Wordplay](hacksmarter/wordplay.md)
+* [Triathlon](hacksmarter/triathlon.md)
 
 ## About
 

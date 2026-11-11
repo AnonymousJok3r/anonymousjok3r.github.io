@@ -63,7 +63,7 @@ Leveraged GetUserSPNs.py -no-preauth to enumerate SPNs without providing valid c
 
 <figure><img src="../.gitbook/assets/image (494).png" alt=""><figcaption></figcaption></figure>
 
-And the hash was cracked when I applied rule best66&#x20;
+I cracked the extracted hash using Hashcat with the **`rockyou.txt`** wordlist and the **`best66`** rule.
 
 <figure><img src="../.gitbook/assets/image (495).png" alt=""><figcaption></figcaption></figure>
 

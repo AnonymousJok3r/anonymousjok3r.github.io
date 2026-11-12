@@ -24,6 +24,10 @@
 * [Wordplay](hacksmarter/wordplay.md)
 * [Triathlon](hacksmarter/triathlon.md)
 
+## Offsec Labs
+
+* [Amaterasu](offsec-labs/amaterasu.md)
+
 ## About
 
 ***

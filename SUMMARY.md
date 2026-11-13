@@ -27,6 +27,7 @@
 ## Offsec Labs
 
 * [Amaterasu](offsec-labs/amaterasu.md)
+* [Loly](offsec-labs/loly.md)
 
 ## About
 

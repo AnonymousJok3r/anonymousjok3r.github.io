@@ -28,6 +28,9 @@
 
 * [Amaterasu](offsec-labs/amaterasu.md)
 * [Loly](offsec-labs/loly.md)
+* [Potato](offsec-labs/potato.md)
+* [Gaara](offsec-labs/gaara.md)
+* [BBSCute](offsec-labs/bbscute.md)
 
 ## About
 

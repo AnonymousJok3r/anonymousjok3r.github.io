@@ -43,7 +43,7 @@ During directory enumeration, I discovered a `/cryoserver` directory, though fur
 
 ### Credential brute forcing&#x20;
 
-Finding no further leads on the web application, I shifted to credential brute-forcing against the SSH service. Using Hydra (or your preferred tool) with the `rockyou.txt` wordlist, I successfully recovered the password for the user `gaara` and gained SSH access
+Finding no further leads on the web application, I shifted to credential brute-forcing against the SSH service. Using Hydra with the `rockyou.txt` wordlist, I successfully recovered the password for the user `gaara` and gained SSH access
 
 <figure><img src="../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
 

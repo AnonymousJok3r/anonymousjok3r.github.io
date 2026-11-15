@@ -31,8 +31,7 @@
 * [Potato](offsec-labs/potato.md)
 * [Gaara](offsec-labs/gaara.md)
 * [BBSCute](offsec-labs/bbscute.md)
-
-## About
+* [Blogger](offsec-labs/blogger.md)
 
 ***
 

@@ -32,6 +32,8 @@
 * [Gaara](offsec-labs/gaara.md)
 * [BBSCute](offsec-labs/bbscute.md)
 * [Blogger](offsec-labs/blogger.md)
+* [FunEasyBoxEnum](offsec-labs/funeasyboxenum.md)
+* [GlassGlowSmile](offsec-labs/glassglowsmile.md)
 
 ***
 

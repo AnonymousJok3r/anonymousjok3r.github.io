@@ -2,6 +2,8 @@
 
 ## Enumeration&#x20;
 
+### Nmap scan
+
 ```
 PORT   STATE SERVICE REASON         VERSION
 22/tcp open  ssh     syn-ack ttl 61 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)

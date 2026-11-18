@@ -90,11 +90,11 @@ Enumeration revealed the target was running an outdated instance of **Drupal 7**
 
 <figure><img src="../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
 
-did a nc command for a stabe full terminal shell access&#x20;
+did a nc command for a stable full terminal shell access&#x20;
 
 <figure><img src="../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
 
-Found local.txt in /home&#x20;
+Found local.txt in /home directory
 
 <figure><img src="../.gitbook/assets/image (621).png" alt=""><figcaption></figcaption></figure>
 

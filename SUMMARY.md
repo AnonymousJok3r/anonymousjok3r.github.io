@@ -34,6 +34,8 @@
 * [Blogger](offsec-labs/blogger.md)
 * [FunEasyBoxEnum](offsec-labs/funeasyboxenum.md)
 * [GlassGlowSmile](offsec-labs/glassglowsmile.md)
+* [Stapler](offsec-labs/stapler.md)
+* [DC-1](offsec-labs/dc-1.md)
 
 ***
 

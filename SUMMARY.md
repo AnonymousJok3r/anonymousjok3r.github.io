@@ -36,6 +36,7 @@
 * [GlassGlowSmile](offsec-labs/glassglowsmile.md)
 * [Stapler](offsec-labs/stapler.md)
 * [DC-1](offsec-labs/dc-1.md)
+* [SoSimple](offsec-labs/sosimple.md)
 
 ***
 

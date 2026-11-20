@@ -37,6 +37,7 @@
 * [Stapler](offsec-labs/stapler.md)
 * [DC-1](offsec-labs/dc-1.md)
 * [SoSimple](offsec-labs/sosimple.md)
+* [DC-9](offsec-labs/dc-9.md)
 
 ***
 

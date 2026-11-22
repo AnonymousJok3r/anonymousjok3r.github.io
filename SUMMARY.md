@@ -38,6 +38,8 @@
 * [DC-1](offsec-labs/dc-1.md)
 * [SoSimple](offsec-labs/sosimple.md)
 * [DC-9](offsec-labs/dc-9.md)
+* [Assertion](offsec-labs/assertion.md)
+* [Djinn3](offsec-labs/djinn3.md)
 
 ***
 

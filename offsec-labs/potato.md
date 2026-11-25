@@ -36,11 +36,11 @@ TCP/IP fingerprint:
 
 Anonymous login is allowed and able to download two files&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 The login mechanism is vulnerable to PHP type juggling due to the loose comparison (== 0) used with strcmp(). In PHP versions prior to 8.0, submitting an array parameter (password\[]=) instead of a string causes strcmp() to return NULL. Because PHP loosely evaluates NULL == 0 as true, authentication is bypassed without knowing the password, which also sets the valid password cookie in the response.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -48,23 +48,23 @@ The login mechanism is vulnerable to PHP type juggling due to the loose comparis
 
 Directory brute-forcing revealed an `/admin` endpoint hosting a login portal. Reviewing `index.php.bak`, which was previously retrieved from the FTP server, exposed the underlying authentication logic and a PHP type-juggling vulnerability that allowed bypassing the login check.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Upon bypassing the login check, the server issued a `pass` cookie containing the valid administrative password. Setting this cookie in the browser session granted authenticated access to `/admin/index.php`
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Intercepting the logs revealed a `file` parameter used to fetch local resources. Testing confirmed a Local File Inclusion (LFI) vulnerability, allowing me to fuzz paths and retrieve `/etc/passwd`, which exposed a webadmin user's password hash.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Using John the Ripper, I cracked the extracted hash to recover the user's plaintext password. With these valid credentials, I authenticated via SSH (port 22) to gain initial access to the target machine
 
@@ -72,7 +72,7 @@ Using John the Ripper, I cracked the extracted hash to recover the user's plaint
 
 ### Port 22 - SSH
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Privilege Escalation&#x20;
 
@@ -82,7 +82,7 @@ Running sudo -l revealed that webadmin could execute /bin/nice /notes/\* as root
 Command:- sudo /bin/nice /notes/../bin/sh
 ```
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

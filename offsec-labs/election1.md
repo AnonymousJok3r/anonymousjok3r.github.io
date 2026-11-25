@@ -97,7 +97,7 @@ Used love credentials to gain access on port 22&#x20;
 
 ### Privilege Escalation&#x20;
 
-The SUID bit was set on Serv-U, and I found a matching local privilege escalation exploit through SearchSploit.
+The SUID bit was set on Serv-U, and I found a matching local privilege escalation exploit through SearchSploit. Uploaded the exploit and modified the permissions to run it.
 
 <figure><img src="../.gitbook/assets/image (683).png" alt=""><figcaption></figcaption></figure>
 

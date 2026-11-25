@@ -37,7 +37,7 @@ Nothing interesting stood out on the page initially, so I tried directory brute-
 
 I decoded the binary text using an online tool, which revealed a set of credentials. I used them to log in successfully and gain access to the dashboard
 
-#### Binary decoder: https://cryptii.com/pipes/binary-decoder/
+#### Binary decoder - [http://cryptii.com/pipes/binary-decoder](http://cryptii.com/pipes/binary-decoder)
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 

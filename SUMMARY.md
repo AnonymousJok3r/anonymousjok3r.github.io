@@ -41,6 +41,7 @@
 * [Assertion](offsec-labs/assertion.md)
 * [Djinn3](offsec-labs/djinn3.md)
 * [Election1](offsec-labs/election1.md)
+* [BTRsys2.1](offsec-labs/btrsys2.1.md)
 
 ***
 
